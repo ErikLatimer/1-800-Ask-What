@@ -4,6 +4,7 @@
   "description": "The 1-800-Ask-What Back end Solution",
   "main": "index.js",
   "scripts": {
+    "babel": "babel ./src/dev_src --watch --out-dir ./src/build_src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
