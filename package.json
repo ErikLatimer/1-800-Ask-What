@@ -1,0 +1,19 @@
+{
+  "name": "1800askwhatbackend",
+  "version": "0.0.0",
+  "description": "The 1-800-Ask-What Back end Solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikLatimer/1800AskWhatBackEnd.git"
+  },
+  "author": "All of Us",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikLatimer/1800AskWhatBackEnd/issues"
+  },
+  "homepage": "https://github.com/ErikLatimer/1800AskWhatBackEnd#readme"
+}
