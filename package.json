@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ErikLatimer/1800AskWhatBackEnd/issues"
   },
-  "homepage": "https://github.com/ErikLatimer/1800AskWhatBackEnd#readme"
+  "homepage": "https://github.com/ErikLatimer/1800AskWhatBackEnd#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
