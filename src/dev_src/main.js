@@ -101,7 +101,7 @@ app.get('/', (request, response) => {
     }
 
     // After good input prompt for geolocation, only once though?
-        session.set(userPhoneNumber, 3);
+        //session.set(userPhoneNumber, 3);
         let sb = new StringBuilder();
         sb.append('<?xml version="1.0" encoding="UTF-8"?>');
         sb.append('<Response>');

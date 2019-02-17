@@ -106,9 +106,9 @@ app.get('/', function (request, response) {
     var value_map = extractDataFromUserText(userText);
     MongoStoreDataMap(value_map);
   } // After good input prompt for geolocation, only once though?
+  //session.set(userPhoneNumber, 3);
 
 
-  session.set(userPhoneNumber, 3);
   var sb = new _stringBuilder.default();
   sb.append('<?xml version="1.0" encoding="UTF-8"?>');
   sb.append('<Response>');
