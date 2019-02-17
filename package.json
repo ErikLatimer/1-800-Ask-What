@@ -18,11 +18,19 @@
   },
   "homepage": "https://github.com/ErikLatimer/1800AskWhatBackEnd#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "@babel/polyfill": "^7.2.5",
+    "express": "^4.16.4",
+    "geolocation": "^0.2.0",
+    "mongodb": "^3.1.13",
+    "node-geocoder": "^3.22.0",
+    "request": "^2.88.0",
+    "string-builder": "^0.1.6",
+    "twilio": "^3.28.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.3.1"
+    "@babel/preset-env": "^7.3.1",
+    "requests": "^0.2.2"
   }
 }
