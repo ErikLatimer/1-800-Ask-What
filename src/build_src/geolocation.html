@@ -2,10 +2,10 @@
 <html>
     <head>
         <script>
-                navigator.geolocation.getCurrentPosition( function ( position ) { 
-                    console.log(position);
-                    console.log(document.cookie);
-                    const request = new Request(`https://2ff7a32c.ngrok.io/geolocationLanding?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&userNumber=${document.cookie}`, {method: 'POST', body: '{"foo": "bar"}'} );
+                navigator.geolocation.getCurrentPosition( function ( position ) {  
+                    var username = document.cookie.split("=");
+                    console.log(username[1]);
+                    const request = new Request(`https://213874d6.ngrok.io/geolocationLanding/?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&userNumber=${username[1]}`, {method: 'POST', body: '{"foo": "bar"}'} );
                     fetch(request).then ( (response) => { console.log( "the redirect returned");  } ); 
             } );
                 
