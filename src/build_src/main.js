@@ -42,7 +42,7 @@ var PORT_FOR_NGRUNK = 80;
 
 var request = require('request');
 
-var GOOGLEAPIKEY = "AIzaSyDGlozqJfn3b72pTYegNZYKQlCZcLF-hE0";
+var GOOGLEAPIKEY = "[Google API Key Here]";
 var KEYSENUM = {
   phoneNumber: 'phoneNumber',
   radius: 'radius',

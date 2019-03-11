@@ -20,7 +20,7 @@ const PORT_FOR_NGRUNK = 80;
 
 const request = require('request');
 
-const GOOGLEAPIKEY = "";
+const GOOGLEAPIKEY = "[Google API Key Here]";
 
 const KEYSENUM = {
     phoneNumber: 'phoneNumber',

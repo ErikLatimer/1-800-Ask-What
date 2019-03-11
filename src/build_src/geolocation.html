@@ -5,7 +5,7 @@
                 navigator.geolocation.getCurrentPosition( function ( position ) {  
                     var username = document.cookie.split("=");
                     console.log(username[1]);
-                    const request = new Request(`https://213874d6.ngrok.io/geolocationLanding/?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&userNumber=${username[1]}`, {method: 'POST', body: '{"foo": "bar"}'} );
+                    const request = new Request(`[ngrok address here]/geolocationLanding/?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&userNumber=${username[1]}`, {method: 'POST', body: '{"foo": "bar"}'} );
                     fetch(request).then ( (response) => { console.log( "the redirect returned");  } ); 
             } );
                 
